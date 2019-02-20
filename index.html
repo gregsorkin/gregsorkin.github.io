@@ -12,20 +12,22 @@
     <body>
         <body background="Assets/images/ps_neutral_@2X.png"></body>
 
-        <!-- Header Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Greg Sorkin</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+         <!-- Header Bar -->
+         <div class="sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+                    <a class="navbar-brand" href="index.html">Greg Sorkin</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </div>
                     </div>
-                </div>
-        </nav>
+                </nav>
+        </div>
 
         <!-- About Me -->
         <div class="p-5 container">
@@ -49,13 +51,12 @@
         </div>
 
 
-
-        
-
         <!-- Footer -->
-        <footer class="page-footer font-small mdb-color lighten-1 pt-4">
-            <div class="footer-copyright text-center py-3">&copy; 2019 Copyright | Greg Sorkin </div>
-        </footer>
+        <div class="fixed-bottom">
+            <footer class="page-footer font-small mdb-color lighten-1 pt-4">
+                <div class="footer-copyright text-center py-3">&copy; 2019 Copyright | Greg Sorkin </div>
+            </footer>
+        </div>
         
     </body>
 </html>

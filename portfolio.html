@@ -12,34 +12,37 @@
     <body>
         <body background="Assets/images/ps_neutral_@2X.png"></body>
 
-            <!-- Header Bar -->
-            <div class="wrapper">
-                <header>
-                    <div class="name">
-                        <h1>Greg Sorkin</h1>
+        <!-- Header Bar -->
+        <div class="sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+                    <a class="navbar-brand" href="index.html">Greg Sorkin</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </div>
                     </div>
-            
-                    <!-- Navigation Links -->
-                    <ul class="navBar">
-                        <li class="navlink"><a href="index.html">About</a> <strong>|</strong> </li>
-                        <li class="navlink"><a href="portfolio.html">Portfolio</a> <strong>|</strong> </li>
-                        <li class="navlink"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </header>
-            </div>
+                </nav>
+        </div>
 
         <!-- Main content area -->
-        <div class="portfolioBox">
+        <div class="container-fluid">
             <div class="gallery">
                 <a href="https://github.com/gregsorkin/Psychic-Game" target="_blank">
-                    <img src="./Images/psychicGame.jpg" alt="Psychic Game">
+                    <img src="./Images/psychicGame.jpg" alt="Psychic Game" width=300px height=400px class="img-thumbnail img-responsive">
                     <div class="desc">Psychic Game</div>
                 </a>
             </div>
               
             <div class="gallery">
-                <img src="./images/building.jpeg" alt="RPG Game">
-                <div class="desc">RPG Game</div>
+                <a href="https://github.com/gregsorkin/unit-4-game" target="_blank">
+                    <img src="./Images/crystalGame.jpg" alt="Crystal Collector Game" width=300px height=300px class="img-thumbnail img-responsive">
+                    <div class="desc">Crystal Collector Game</div>
+                </a>
             </div>
               
             <div class="gallery">
@@ -59,9 +62,11 @@
         </div>
 
         <!-- Footer -->
-        <footer class="page-footer font-small mdb-color lighten-1 pt-4">
-            <div class="footer-copyright text-center py-3">&copy; 2019 Copyright | Greg Sorkin </div>
-        </footer>
+        <div class="fixed-bottom">
+            <footer class="page-footer font-small mdb-color lighten-1 pt-4">
+                <div class="footer-copyright text-center py-3">&copy; 2019 Copyright | Greg Sorkin </div>
+            </footer>
+        </div>
     
     </body>
 </html>
