@@ -1,69 +1,67 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en-us">
+	
     <head>
-        <meta lang="eng-us" charset="UTF-8">
-        <meta name="viewport" content="width = device-width, initial-scale = 1">
-
-        <title>Greg Sorkin | Home</title>
-
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/Assets/css/style.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home | Greg Sorkin</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
     <body>
-        <!-- <body background="Assets/images/ps_neutral_@2X.png"></body> -->
-
         <!-- Header Nav Bar -->
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container-fluid">
+        <nav class="navbar navbar-default" id="headerBar">
+            <div class="container">
                 <div class="navbar-header">
-                    <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>-->
-                        <a class="navbar-brand" href="https://gregsorkin.github.io/index.html">Greg Sorkin</a>
+                    </button>
+                    <a class="navbar-brand" href="#" id="logo">Greg Sorkin</a>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"></li><a href="https://gregsorkin.github.io/index.html">About <span class="sr-only">(current)</span></a></li>
-                        <li><a href="https://gregsorkin.github.io/portfolio.html">Portfolio</a></li>
-                        <li><a href="https://gregsorkin.github.io/contact.html">Contact</a></li>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav  navbar-right" id="navbar-links">
+                        <li><a href="index.html" id="no-border-about">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <!-- About Me -->
-        <div class="p-5 container">
+        <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <div class="aboutBox">
-                        <h1>About Me</h1>
-                        <hr>
-                    </div>
+                <div class="col-md-1 col-md-offset-1"></div>
+                <div class="col-md-8 main-section">
+                <h1>About Me</h1>
                     <div class="row">
-                        <img src="images/portrait.jpg" class="pb-md-4 pr-md-3 img-responsive" alt="Yours truly" width="30%" height="30%">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
+                        <img class="pull-left img-responsive" id="profile-photo" src="images/portrait.jpg" alt="Yours truly">
                         <p>Hi! My name is Greg Sorkin. I'm born and raised in the Chicago Suburbs-- Wilmette, specifically. I have a degree in Televsion Writing & Producing from <a href="http://www.colum.edu" target="_blank">Columbia College Chicago</a> and lived in Los Angeles for two years to try to break into the industry... <em>juuuust</em> before the 100 day Writers Guild strike. Timing, she is everything.</p>
                         <p>I moved back to Chicago and started working with a team to create comic books, as we thought that was a good backdoor into the industry. This process made me fall in love with lettering, which led me to doing design work freelance and lettering comics for other creators, some of which are published. In trying to transition to graphic design full-time, I found the Northwestern Coding Bootcamp and signed up to round out my resume and design skills to be more marketable.</p>
                         <p>And that's how I got here!</p>
                     </div>
-                    <div class="col-md-4"></div>
                 </div>
-                <div class="col"></div>
+
+                <div class="col-md-1 col-md-offset-1"></div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid footer-section">
+            <div class="row">
+                <p>&copy; 2019 | Greg Sorkin</p>
             </div>
         </div>
 
-
-        <!-- Footer -->
-        <div class="fixed-bottom">
-            <footer class="page-footer font-small mdb-color lighten-1 pt-4">
-                <div class="footer-copyright text-center py-3">&copy; 2019 Copyright | Greg Sorkin </div>
-            </footer>
-        </div>
-        
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
     </body>
 </html>
