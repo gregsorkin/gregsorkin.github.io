@@ -1,67 +1,1009 @@
 <!DOCTYPE html>
+<html>
+	<head>
 
-<html lang="en-us">
-	
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home | Greg Sorkin</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-    <body>
-        <!-- Header Nav Bar -->
-        <nav class="navbar navbar-default" id="headerBar">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#" id="logo">Greg Sorkin</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav  navbar-right" id="navbar-links">
-                        <li><a href="index.html" id="no-border-about">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+		<title>Resume + Portfolio | Greg Sorkin</title>	
 
-        <!-- About Me -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-1 col-md-offset-1"></div>
-                <div class="col-md-8 main-section">
-                <h1>About Me</h1>
-                    <div class="row">
-                        <img class="pull-left img-responsive" id="profile-photo" src="images/portrait.jpg" alt="Yours truly">
-                        <p>Hi! My name is Greg Sorkin. I'm born and raised in the Chicago Suburbs-- Wilmette, specifically. I have a degree in Televsion Writing & Producing from <a href="http://www.colum.edu" target="_blank">Columbia College Chicago</a> and lived in Los Angeles for two years to try to break into the industry... <em>juuuust</em> before the 100 day Writers Guild strike. Timing, she is everything.</p>
-                        <p>I moved back to Chicago and started working with a team to create comic books, as we thought that was a good backdoor into the industry. This process made me fall in love with lettering, which led me to doing design work freelance and lettering comics for other creators, some of which are published. In trying to transition to graphic design full-time, I found the Northwestern Coding Bootcamp and signed up to round out my resume and design skills to be more marketable.</p>
-                        <p>And that's how I got here!</p>
-                    </div>
-                </div>
+		<!-- <meta name="keywords" content="HTML5 Template" />
+		<meta name="description" content="Porto - Responsive HTML5 Template">
+		<meta name="author" content="okler.net"> -->
 
-                <div class="col-md-1 col-md-offset-1"></div>
-            </div>
+		<!-- Favicon -->
+		<!-- <link rel="shortcut icon" href="img/favicon2/phpThumb_generated_thumbnailico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/favicon2/favicon.png"> -->
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 
-        </div>
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
-        <!-- Footer -->
-        <div class="container-fluid footer-section">
-            <div class="row">
-                <p>&copy; 2019 | Greg Sorkin</p>
-            </div>
-        </div>
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
 
-        <!-- Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
-    </body>
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="css/vendor/fontawesome-free/css/all.min.css">
+		<link rel="stylesheet" href="css/vendor/animate/animate.min.css">
+		<link rel="stylesheet" href="css/vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="css/vendor/owl.carousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/vendor/owl.carousel/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/vendor/magnific-popup/magnific-popup.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
+
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="css/vendor/rs-plugin/settings.css">
+		<link rel="stylesheet" href="css/vendor/rs-plugin/layers.css">
+		<link rel="stylesheet" href="css/vendor/rs-plugin/navigation.css">
+		
+		<!-- Demo CSS -->
+		<link rel="stylesheet" href="css/demos/demo-resume.css">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skins/skin-resume.css"> 
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="css/vendor/modernizr/modernizr.min.js"></script>
+
+	</head>
+	<body data-spy="scroll" data-target=".wrapper-spy">
+
+		<!-- SIDE ICON BAR -->
+		<div class="body">
+			<header id="header" class="header-floating-icons" data-plugin-options="{'stickyEnabled': false, 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 0, 'stickySetTop': '60px', 'stickyChangeLogo': false}">
+				<div class="header-body">
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-nav pt-1">
+										<div class="header-nav-main">
+											<nav class="wrapper-spy collapse">
+												<ul class="nav" id="mainNav">
+													<li>
+														<a data-hash href="#about-me" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-home icons"></i>
+															<span class="custom-tooltip">About Me</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#experience" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-eye icons"></i>
+															<span class="custom-tooltip">Experience</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#education" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-briefcase icons"></i>
+															<span class="custom-tooltip">Education</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#skills" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-graduation icons"></i>
+															<span class="custom-tooltip">Skills</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#portfolio" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-diamond icons"></i>
+															<span class="custom-tooltip">Portfolio</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#recommendations" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-pencil icons"></i>
+															<span class="custom-tooltip">Recommendations</span>
+														</a>
+													</li>
+													<!-- <li>
+														<a data-hash href="#blog" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-bubbles icons"></i>
+															<span class="custom-tooltip">Blog</span>
+														</a>
+													</li> -->
+													<li>
+														<a data-hash href="#say-hello" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-envelope-open icons"></i>
+															<span class="custom-tooltip">Say Hello</span>
+														</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div role="main" class="main">
+
+			<!-- OVERVIEW -->
+			<section id="about-me" class="section section-no-border section-parallax custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/starrySky.png">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 custom-sm-margin-bottom-1">
+							<img src="img/portrait2.jpg" class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4" alt="GS Portrait" />
+						</div>
+						<div class="col-lg-6 col-xl-5">
+							<h1 class="text-color-primary custom-font-size-1">Greg Sorkin</h1>
+							<p class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1">Operations Coordinator + Graphic Designer at Pearson Education</p>
+							<span class="custom-about-me-infos">
+								<span class="custom-text-color-1 text-uppercase">Glenview, IL</span>
+								<span class="custom-text-color-1 text-uppercase mb-3">Educational Publishing</span>
+								<span class="custom-text-color-1 text-uppercase">
+									<strong class="text-color-light">Previous: </strong>
+									Hockfield & Associates, Inc.
+									<a data-hash href="#experience" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
+								</span>
+								<span class="custom-text-color-1 text-uppercase">
+									<strong class="text-color-light">Education: </strong>
+										Columbia College Chicago
+									<a data-hash href="#education" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
+								</span>
+							</span>
+						</div>
+						<div class="col-lg-2 col-xl-3 d-none d-lg-block">
+							<img src="img/resume/about-me/mouse.png" custom-anim class="img-fluid custom-image-pos-1" alt />
+						</div>
+					</div>
+				</div>
+				<ul class="social-icons custom-social-icons">
+					<li class="social-icons-facebook">
+						<a href="http://www.facebook.com/fontlordstudios" target="_blank" title="Facebook">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li class="social-icons-twitter">
+						<a href="http://www.twitter.com/gregsorkin" target="_blank" title="Twitter">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li class="social-icons-instagram">
+						<a href="http://www.instagram.com/gregsorkin" target="_blank" title="Instagram">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<!-- QUICK LINKS -->
+			<div class="custom-about-me-links bg-color-light">
+				<div class="container">
+					<div class="row justify-content-end">
+						<div class="col-lg-3 text-center custom-xs-border-bottom p-0">
+							<a data-hash href="#say-hello" class="text-decoration-none">
+								<span class="custom-nav-button text-color-dark">
+									<i class="icon-earphones-alt icons text-color-primary"></i>
+									Contact Information	
+								</span>
+							</a>
+						</div>
+						<div class="col-lg-2 text-center custom-xs-border-bottom p-0">
+							<a data-hash href="#say-hello" class="text-decoration-none">
+								<span class="custom-nav-button custom-divisors text-color-dark">
+									<i class="icon-envelope-open icons text-color-primary"></i>
+									Send Message	
+								</span>
+							</a>
+						</div>
+						<div class="col-lg-3 text-center p-0">
+							<a href="#" class="text-decoration-none">
+								<span class="custom-nav-button text-color-dark">
+									<i class="icon-cloud-download icons text-color-primary"></i>
+									Download Resume
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- CONTACT + ABOUT ME -->
+			<section class="section section-no-border bg-color-light m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+
+							<div class="custom-box-details bg-color-light custom-box-shadow-1 col-lg-3 ml-5 mb-5 mb-lg-4 float-right clearfix">
+								<h4>Contact Information</h4>
+								<div class="row">
+									<div class="col-md-6">
+										<ul class="custom-list-style-1 p-0 mb-0">
+											<li>
+												<span class="text-color-dark">Google Voice:</span>
+												<span class="custom-text-color-2"><a class="custom-text-color-2" href="tel:8156616033" target="_blank">815-661-6033</a></span>
+											</li>
+											<li>
+												<span class="text-color-dark">EMAIL:</span>
+												<span class="custom-text-color-2"><a class="custom-text-color-2" href="mailto:gregsorkin@gmail.com" target="_blank">gregsorkin@gmail.com</a></span>
+											</li>
+											<li>
+												<span class="text-color-dark">GITHUB:</span>
+												<span class="custom-text-color-2"><a class="custom-text-color-2" href="http://www.github.com/gregsorkin" target="_blank">@gregsorkin</a></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<!-- ABOUT ME -->
+							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">About Me</h2>
+
+							<p class="custom-text-color-2">Passionate designer and motivated creator with a background in graphic design, lettering, and pre-press; screen and comic book writing; and production. Works well 
+														   independently or collaboratively to create evocative imagery and thoughtful media reflecting the team's shared vision.</p>
+
+							<div class="about-me-more" id="aboutMeMore">
+								<p>I was born and raised in the suburbs of Chicago where I developed a passion for all things pop culture and technology. This led me to a degree from Columbia College Chicago in Television Writing & Producing.</p>
+
+								<p>I wrapped up my undergrad by moving to Los Angeles and participating in the Semester in L.A. program and stayed out there after completing. This would have worked out great if not for the 100 day Writer's Guild Strike that greatly affected the industry.</p>
+
+								<p>Returning from L.A., I pivoted from screenwriting to comic book writing and producing, creating several original titles along with a creative team. Championing the DIY ethos, I took on the task of lettering and design on our books, through which I fell in love with the design process.
+									I dove into teaching myself graphic design and the intricacies of the Adobe Creative Cloud, and expanded into design work for clients including published and award-nominated work.</p>
+
+								<p>Most recently, I've decided to expand my skillset by completing a full-stack web development certification program through Northwestern University and Trilogy Education, learning the ins and outs of web developemt, both front-end and back-end. So much new information to dive into has been exciting!</p>
+
+							</div>
+
+							<a id="aboutMeMoreBtn" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1" href="#">View More</a>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- EXPERIENCE -->
+			<section id="experience" class="section section-secondary section-no-border m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Experience</h2>
+							<section class="timeline custom-timeline" id="timeline">
+								<div class="timeline-body">
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-dark text-uppercase">
+													From
+													<span class="font-weight-semibold">Jan 2010</span>
+												</span>
+												<span class="to text-color-dark text-uppercase">
+													To
+													<span class="font-weight-semibold">Present</span>
+												</span>
+												<p class="text-color-dark">(9 Years 6 Months)</p>
+												<span class="company text-color-dark font-weight-semibold">
+													Font Lord Studios
+													<span class="company-location text-color-dark font-weight-normal text-uppercase">Chicago, Illinois</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Graphic Designer + Letterer</h4>
+												<p class="custom-text-color-2">Design, edit, and execute various graphic design projects, from brand identity to storytelling; for corporate and non-profit clients and independent creators. 
+																				Partner with clients and creators to map out their vision and goals for the project; craft mockups and adjust copy, art, and media through edit rounds to deliver visually compelling finished products.</p>
+
+												<p class="custom-text-color-2">Suite of services include design and layout of print, web, and digital collateral; comic book lettering; logo design; copyediting; and all stages of production and delivery.</p>
+														
+												<p class="custom-text-color-2">Proven ability to manage multiple projects concurrently with strong attention to detail producing high-quality, professional work on budget and schedule.</p>
+											</div>
+										</div>
+									</article>
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-dark text-uppercase">
+													From
+													<span class="font-weight-semibold">Jul 2013</span>
+												</span>
+												<span class="to text-color-dark text-uppercase">
+													To
+													<span class="font-weight-semibold">Present</span>
+												</span>
+												<p class="text-color-dark">(6 years)</p>
+												<span class="company text-color-dark font-weight-semibold">
+													Pearson Education
+													<span class="company-location text-color-dark font-weight-normal text-uppercase">Glenview, Illinois</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Operations Coordinator + Graphic Designer</h4>
+												<p class="custom-text-color-2">Project manager for Sheltered Instructional Observation Protocol (SIOP), a web-based and face-to-face ESL training program designed to instruct educators on how to teach ESL students more effectively. 
+																			   Responsible for event registration and enrollment; act as scheduling liaison between school administration and Pearson; distribution of participant communications; technical deployment of webinars; 
+																			   maintaining evolving online course content to be current and consistent; customer service and support; and payment reconciliation.</p>
+
+												<p class="custom-text-color-2">Utilizing graphic design background, partner with the Development to create graphics used on digital training platforms, websites, and other customer-facing materials. Worked with local Diversity & 
+																			   Inclusion chapter to create internal printed promotional pieces to foster employee engagement.</p> 
+														
+												<p class="custom-text-color-2">Cross-trained to interface with other departments, such as human resources to aid with timesheet management and sales teams to assign educational training program licenses.</p>
+											</div>
+										</div>
+									</article>
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-dark text-uppercase">
+													From
+													<span class="font-weight-semibold">Feb 2012</span>
+												</span>
+												<span class="to text-color-dark text-uppercase">
+													To
+													<span class="font-weight-semibold">Nov 2012</span>
+												</span>
+												<p class="text-color-dark">(10 months)</p>
+												<span class="company text-color-dark font-weight-semibold">
+													Hockfield & Associates, Inc.
+													<span class="company-location text-color-dark font-weight-normal text-uppercase">Arlington Heights, Illinois</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Graphics + Administrative Coordinator</h4>
+												<p class="custom-text-color-2">Spearheaded and created company's first in-house graphics department and photo studio. Shot and retouched digital private label product photos of mockups for manufacturers and vendors. 
+																			   Designed new template for comparative analysis matrix of name brand versus private label products to drive sales and partnered with sales team to create visuals that best highlighted products to be purchased by retailers. 
+																			   Organized and maintained company's internal and external vendor and product databases. Managed inventory of product samples and product roll-out communications with manufacturers, top retailers, and big box stores.</p>
+											</div>
+										</div>
+									</article>
+									<div class="timeline-bar"></div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- EDUCATION -->
+			<section id="education" class="section section-no-border custom-bg-color-1 m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold m-0">Education</h2>
+							<div class="owl-carousel nav-bottom custom-dots-style-1 mb-0" data-plugin-options="{'items': 1, 'loop': false, 'dots': true, 'nav': false}">
+								<div class="row">
+									<div class="col-lg-6 col-sm-6 pb-4">
+										<div class="custom-box-details-2 bg-color-light custom-box-shadow-3">
+											<i class="icon-graduation icons text-color-primary"></i>
+											<h4 class="font-weight-semibold text-color-dark m-0">Columbia College Chicago</h4>
+											<p class="custom-text-color-2 mb-1">Bachelor's in Television Writing + Producing</p>
+											<strong class="text-color-primary">2004-2007</strong>
+										</div>
+									</div>
+									<div class="col-lg-6 col-sm-6 pb-4">
+										<div class="custom-box-details-2 bg-color-light custom-box-shadow-3">
+											<i class="icon-graduation icons text-color-primary"></i>
+											<h4 class="font-weight-semibold text-color-dark m-0">Northwestern University</h4>
+											<p class="custom-text-color-2 mb-1">Full-stack Web Development Certification</p>
+											<strong class="text-color-primary">2019</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- SKILLS -->
+			<section id="skills" class="section section-no-border bg-color-light m-0">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-lg-12 mb-4 mb-md-0">
+							<div class="row">
+								<div class="col-lg-4">
+									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Skills & Languages</h2>
+									<div class="progress-bars custom-progress-bars">
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Adobe Creative Cloud</span>
+										</div>
+
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="95%"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Microsoft Office</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="75%" data-appear-animation-delay="300"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Apple iWork</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="75%" data-appear-animation-delay="600"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Adobe Premiere</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="33%" data-appear-animation-delay="900"></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="progress-bars custom-progress-bars custom-md-margin-top-1">
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>HTML</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="90%"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>CSS</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="90%" data-appear-animation-delay="300"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Javascript</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="80%" data-appear-animation-delay="600"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Node</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="75%" data-appear-animation-delay="900"></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="progress-bars custom-progress-bars custom-md-margin-top-1">
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Express</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="70%"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>SQL + MONGO Databases</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="65%" data-appear-animation-delay="300"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>React</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="50%" data-appear-animation-delay="600"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Python + Django</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="30%" data-appear-animation-delay="900"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-lg-12">
+									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Design</h2>
+									<ul style="display: flex; justify-content: space-around">
+										<li>Visual Ideation</li>
+										<li>Layout</li>
+										<li>Typography</li>
+										<li>Color Theory</li>
+										<li>Print + Digital Press</li>
+									</ul>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Strategic</h2>
+									<ul style="display: flex; justify-content: space-around">
+										<li>Creativity</li>
+										<li>Collaboration</li>
+										<li>Planning</li>
+										<li>Comunication</li>
+										<li>Quick Thinking</li>
+										<li>Time Management</li>
+										<li>Problem Solving</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- PORTFOLIO -->
+			<section id="portfolio" class="section section-no-border bg-color-secondary m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">Portfolio</h2>
+							<ul class="nav nav-pills sort-source custom-nav-sort mb-4" data-sort-id="portfolio" data-option-key="filter">
+								<li class="nav-item active" data-option-value="*"><a class="nav-link text-dark active" href="#">Show All</a></li>
+								<li class="nav-item" data-option-value=".webApps"><a class="nav-link text-dark" href="#">Web + Apps</a></li>
+								<li class="nav-item" data-option-value=".logosDesign"><a class="nav-link text-dark" href="#">Logos + Design</a></li>
+								<li class="nav-item" data-option-value=".lettering"><a class="nav-link text-dark" href="#">Lettering</a></li>
+							</ul>
+							<div class="sort-destination-loader sort-destination-loader-showing">
+								<div class="row image-gallery sort-destination lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://gregsorkin.github.io/Psychic-Game/" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/psychicGame.jpg" class="img-fluid" alt="Psychic Game">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://gregsorkin.github.io/crystal_collector_game/" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/crystalGame.jpg" class="img-fluid" alt="Crystal Collector Game">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://gregsorkin.github.io/TriviaGame/" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/triviaGame.jpg" class="img-fluid" alt="Simpsons Trivia Game">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://gregsorkin.github.io/GifTastic/" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/giftastic.jpg" class="img-fluid" alt="GifTastic">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://gregsorkin.github.io/TrainScheduler/" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/trainScheduler.jpg" class="img-fluid" alt="Train Scheduler">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://github.com/DanielSakol/GroupProj" target="_blank">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/wtfsww.jpg" class="img-fluid" alt="Train Scheduler">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://vast-springs-30176.herokuapp.com/" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/FriendFinder.jpg" class="img-fluid" alt="Friend Finder">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://blooming-forest-32584.herokuapp.com/burgers" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/burger.jpg" class="img-fluid" alt="Burgers">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://powerful-oasis-44367.herokuapp.com/" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/fantascii.jpg" class="img-fluid" alt="FantASCII">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item webApps">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="https://simpsons-clicky.herokuapp.com/" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/web_apps/simpsonsClicky.jpg" class="img-fluid" alt="Simpsons Clicky Game">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item logosDesign lettering">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/coming-soon.jpg" target="_blank" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/coming-soon.jpg" class="img-fluid" alt="Coming Soon!">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- RECOMMENDATIONS -->
+			<section id="recommendations" class="section section-no-border bg-color-primary m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">Recommendations</h2>
+						</div>
+						<div class="col-lg-12 p-0">
+							<div class="owl-carousel custom-dots-style-1 custom-dots-color-1 custom-dots-position-1 mb-0" data-plugin-options="{'items': 1, 'autoHeight': true, 'loop': false, 'nav': false, 'dots': true}">
+								<div>
+									<div class="col">
+										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
+											<blockquote class="pb-2">
+												<p class="custom-text-color-3">I hired Greg to serve as both an editor and a designer for my graphic novel work. His professionalism and expertise are two of the key reasons I believe I secured the multi-book offer that I received. I fully endorse any project Greg is scheduled to work on or project he is tied to.</p>
+											</blockquote>
+											<div class="testimonial-author float-left">
+												<p><strong class="text-uppercase">Jason Sterr</strong><span class="custom-text-color-3">Writer, Annison Studios</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="col">
+										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
+											<blockquote class="pb-2">
+												<p class="custom-text-color-3">I’ve hired Greg on a variety of projects over the past number of years and he’s consistently delivered creative, thoughtful and quality finished products on time and on budget. Whenever I need graphics created, I seek out Greg’s expertise and contributions!</p>
+											</blockquote>
+											<div class="testimonial-author float-left">
+												<p><strong class="text-uppercase">Alexis Marlin</strong><span class="custom-text-color-3">Manager of Corporate Communications, Chamberlain Group</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="col">
+										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
+											<blockquote class="pb-2">
+												<p class="custom-text-color-3">I have known Greg for most of my life. He is extremely loyal, hard-working, and intelligent. If given the opportunity I have no doubt that he will succeed in whatever position he accepts.</p>
+											</blockquote>
+											<div class="testimonial-author float-left">
+												<p><strong class="text-uppercase">Jason Dyme</strong><span class="custom-text-color-3">Account Manager, CCMSI</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- BLOG SECTION (CURRENTLY UNUSED) -->
+			<!-- <section id="blog" class="section section-no-border bg-color-light m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">My Blog</h2>
+
+							<div class="row">
+								<div class="col-lg-6 mb-5 mb-lg-0">
+									<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
+										<div class="thumb-info-wrapper">
+											<a href="#">
+												<img src="img/demos/resume/blog/blog-1.jpg" alt class="img-fluid" />
+											</a>
+										</div>
+										<div class="thumb-info-caption">
+											<div class="thumb-info-caption-text">
+												<h4 class="mb-2">
+													<a href="#" class="text-decoration-none text-color-dark font-weight-semibold">
+														Design Driven
+													</a>
+												</h4>
+												<p class="custom-text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt nulla tortor, a imperdiet enim tristique nec. Nulla lobortis leo eget metus dapib...</p>
+											</div>
+											<hr class="solid m-0 mt-4 mb-2">
+											<div class="row justify-content-between">
+												<div class="col-auto custom-blog-post-date text-uppercase font-weight-semibold text-color-dark text-2">
+													July 12-2017
+												</div>
+												<div class="col-auto custom-blog-post-share text-uppercase font-weight-semibold text-color-dark text-2">
+													Share:
+													<ul class="mb-0">
+														<li>
+															<a class="item-facebook text-decoration-none text-uppercase" href="#" title="Share on Facebook">Facebook</a>
+														</li>
+														<li>
+															<a class="item-twitter text-decoration-none text-uppercase" href="#" title="Share on Twitter">Twitter</a>
+														</li>
+														<li>
+															<a class="item-google-plus text-decoration-none text-uppercase" href="#" title="Share on Google Plus">Google Plus</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="col-lg-6">
+									<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
+										<div class="thumb-info-wrapper">
+											<a href="#">
+												<img src="img/demos/resume/blog/blog-2.jpg" alt class="img-fluid" />
+											</a>
+										</div>
+										<div class="thumb-info-caption">
+											<div class="thumb-info-caption-text">
+												<h4 class="mb-2">
+													<a href="#" class="text-decoration-none text-color-dark font-weight-semibold">
+														UI, UX Concepts
+													</a>
+												</h4>
+												<p class="custom-text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt nulla tortor, a imperdiet enim tristique...</p>
+											</div>
+											<hr class="solid m-0 mt-4 mb-2">
+											<div class="row justify-content-between">
+												<div class="col-auto custom-blog-post-date text-uppercase font-weight-semibold text-color-dark text-2">
+													July 12-2017
+												</div>
+												<div class="col-auto custom-blog-post-share text-uppercase font-weight-semibold text-color-dark text-2">
+													Share:
+													<ul class="mb-0">
+														<li>
+															<a class="item-facebook text-decoration-none text-uppercase" href="#" title="Share on Facebook">Facebook</a>
+														</li>
+														<li>
+															<a class="item-twitter text-decoration-none text-uppercase" href="#" title="Share on Twitter">Twitter</a>
+														</li>
+														<li>
+															<a class="item-google-plus text-decoration-none text-uppercase" href="#" title="Share on Google Plus">Google Plus</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-sm-12 pt-4 mt-4 text-center">
+							<a class="btn btn-primary btn-outline text-color-dark custom-btn-style-2 font-weight-bold custom-border-radius-1 text-uppercase">View All</a>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+			<!-- DIVIDER IN LIEU OF BLOG SO IT'S NOT YELLOW INTO YELLOW -->
+			<section id="colorBar">
+				<div class="divider"></div>
+			</section>
+
+			<!-- MESSAGE SENDER FORM -->
+			<div id="say-hello" class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 p-0">
+						<section class="section section-no-border bg-color-primary h-100 m-0">
+							<div class="row justify-content-end m-0">
+								<div class="col-half-section col-half-section-right mr-3">
+									
+									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Say Hello</h2>
+									<form id="contactForm" class="contact-form custom-form-style" action="https://formspree.io/gregsorkin@gmail.com" method="post">
+										<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
+											<strong>Success!</strong> Your message has been sent to us.
+										</div>
+										<div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
+											<strong>Error!</strong> There was an error sending your message.
+											<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
+										</div>
+										
+										<div class="form-content">
+											<div class="form-control-custom">
+												<input type="text" class="form-control" name="name" placeholder="Your Name *" data-msg-required="This field is required." id="name" required="" />
+											</div>
+											<div class="form-control-custom">
+												<input type="text" class="form-control" name="subject" placeholder="Subject *" data-msg-required="This field is required." id="subject" required="" />
+											</div>
+											<div class="form-control-custom">
+												<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" placeholder="Message*" id="message" required="" aria-required="true"></textarea>
+											</div>
+											<input type="submit" class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="Submit" />
+										</div>
+									</form>
+
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<!-- CONTACT + FOLLOW SECTION -->
+					<div class="col-lg-6 p-0">
+						<section class="section section-no-border h-100 m-0" style="background: url(img/background-black-colors-952670.jpg); background-size: cover;">
+							<div class="row m-0">
+								<div class="col-half-section col-half-section-left ml-3">
+									<a href="mailto:gregsorkin@gmail.com" target="_blank" class="text-decoration-none">
+										<span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="icon-envelope icons text-color-light"></i>
+											</span>
+											<span class="feature-box-info">
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Email</span>
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">gregsorkin@gmail.com</strong>
+											</span>
+										</span>
+									</a>
+									<a href="tel:+8156616033" target="_blank" class="text-decoration-none">
+										<span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="icon-phone icons text-color-light"></i>
+											</span>
+											<span class="feature-box-info">
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Google Voice</span>
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">815-661-6033</strong>
+											</span>
+										</span>
+									</a>
+									<span class="feature-box custom-feature-box align-items-center">
+										<span class="custom-feature-box-icon">
+											<i class="icon-share icons text-color-light"></i>
+										</span>
+										<a href="http://www.facebook.com/fontlordstudios" target="_blank" class="d-flex text-decoration-none">
+											<span class="feature-box-info">
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Follow me</span>
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">Facebook</strong>
+											</span>
+										</a>
+										<a href="http://www.instagram.com/gregsorkin" target="_blank" class="d-flex text-decoration-none">
+											<span class="feature-box-info custom-both-side-border mt-2">
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">Instagram</strong>
+											</span>
+										</a>
+										<a href="http://www.twitter.com/gregsorkin" target="_blank" class="d-flex text-decoration-none">
+											<span class="feature-box-info p-0 mt-2">
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">Twitter</strong>
+											</span>
+										</a>
+									</span>
+								</div>
+							</div>
+							<div class="row m-0">
+								<div class="col-half-section col-half-section-left ml-3">
+									<span class="feature-box custom-feature-box align-items-center" style="margin-left: 152px;">
+										<a href="http://www.linkedin.com/in/gregsorkin" target="_blank" class="d-flex text-decoration-none">
+											<span class="feature-box-info p-0 mt-2">
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">Linkedin</strong>
+											</span>
+										</a>
+										<a href="http://www.github.com/gregsorkin" target="_blank" class="d-flex text-decoration-none">
+											<span class="feature-box-info custom-both-side-border mt-2">
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">Github</strong>
+											</span>
+										</a>
+									</span>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+
+			<footer id="footer" class="m-0 p-0">
+				<div class="footer-copyright bg-color-light m-0">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 m-0">
+								<p class="custom-text-color-2 text-center">© Copyright 2019. All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Vendor -->
+		<script src="css/vendor/jquery/jquery.min.js"></script>
+		<script src="css/vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="css/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="css/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+		<script src="css/vendor/popper/umd/popper.min.js"></script>
+		<script src="css/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="css/vendor/common/common.min.js"></script>
+		<script src="css/vendor/jquery.validation/jquery.validate.min.js"></script>
+		<script src="css/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+		<script src="css/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="css/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="css/vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="css/vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="css/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="css/vendor/vide/jquery.vide.min.js"></script>
+		<script src="css/vendor/vivus/vivus.min.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="scripts/theme.js"></script>
+		
+		<!-- Current Page Vendor and Views -->
+		<script src="scripts/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="scripts/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- Current Page Vendor and Views -->
+		<script src="scripts/views/view.contact.js"></script>
+
+		<!-- Demo -->
+		<script src="scripts/demo-resume.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="scripts/custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="scripts/theme.init.js"></script>
+
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+			ga('create', 'UA-12345678-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		 -->
+
+
+	</body>
 </html>
