@@ -840,17 +840,12 @@
 						<section class="section section-no-border bg-color-primary h-100 m-0">
 							<div class="row justify-content-end m-0">
 								<div class="col-half-section col-half-section-right mr-3">
-									
-									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Say Hello</h2>
-									<form id="contactForm" class="contact-form custom-form-style" action="https://formspree.io/gregsorkin@gmail.com" method="post">
-										<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
-											<strong>Success!</strong> Your message has been sent to us.
-										</div>
-										<div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
-											<strong>Error!</strong> There was an error sending your message.
-											<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
-										</div>
 										
+									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Say Hello</h2>
+									<form id="contactFormFormspree" class="custom-form-style" action="https://formspree.io/gregsorkin@gmail.com" method="post">
+										<input type="hidden" name="_subject" value="Contact Form" />
+										<!-- <input type="hidden" name="_next" value="http://www.yourwebsite.com/thank-you.html" /> -->
+													
 										<div class="form-content">
 											<div class="form-control-custom">
 												<input type="text" class="form-control" name="name" placeholder="Your Name *" data-msg-required="This field is required." id="name" required="" />
@@ -867,7 +862,6 @@
 											<input type="submit" class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="Submit" />
 										</div>
 									</form>
-
 								</div>
 							</div>
 						</section>
